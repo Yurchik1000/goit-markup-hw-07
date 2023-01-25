@@ -1,4 +1,4 @@
-:root {
+/* :root {
 --primary-color: #2E2F42;
 --secondary-color: #434455;
 --primary-btn: #4D5AE5;
@@ -48,9 +48,10 @@ overflow: hidden;
 body {
 font-family: "roboto", sans-serif;
 color: var(--primary-color);
-}
+} */
 
 /* -----header----- */
+/* 
 .text{
 font-size: 16px;
 line-height: 1.5;
@@ -132,9 +133,10 @@ color: var(--primary-btn);
     background-color: #404BBF;
     border-radius: 2px;
 
-}
+} */
 
 /* ------hero----- */ 
+/* 
 .hero{
 padding-top: 96px;
 padding-bottom: 120px;
@@ -337,10 +339,10 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--secondary-color);
 margin-bottom: 8px;
-}
+} */
 
 /* -----Our goal------ */
-
+/* 
 .our-goal{
 display: flex;
 justify-content: space-between;
@@ -358,11 +360,11 @@ justify-content: center;
 background-color: #F4F4FD;
 border-radius: 4px;
 margin-bottom: 8px;
-}
+} */
 
 /* -----What-index----- */
 
-.what-title-index{
+/* .what-title-index{
 margin-bottom: 72px;
 text-align: center;
 font-size: 36px;
@@ -372,9 +374,10 @@ letter-spacing: 0.02em;
 
 .what-index {
 padding-bottom: 120px;
-}
+} */
 
 /* -----our-team----- */
+/* 
 .our-team {
 padding-top: 120px;
 padding-bottom: 110px;
@@ -426,11 +429,11 @@ background-color 250ms var(--cub);
 .our-soc-link:hover,
 .our-soc-link:focus {
 background-color: #404BBF;
-}
+} */
 
 /* -----customers----- */
 
-.customers {
+/* .customers {
 padding-top: 130px;
 padding-bottom: 120px;
 }
@@ -480,11 +483,11 @@ fill:var(--primary-btn);
 }
 .customers-link:focus .customers-icon{
 fill:var(--primary-btn);
-}
+} */
 
 /* -----footer----- */
 
-.footer {
+/* .footer {
 padding-top: 100px;
 padding-bottom: 100px;
 background-color:#2E2F42;
@@ -551,11 +554,11 @@ background-color 250ms var(--cub);
 .social-link:hover,
 .social-link:focus {
 background-color: #31D0AA;
-}
+} */
 
 /* -----modal----- */
 
-.backdrop{
+/* .backdrop{
     position: fixed;
     top: 0;
     width: 100%;
@@ -715,7 +718,8 @@ display: flex;
 .form-btn{
     display: flex;
     justify-content: center;
-}
+} */
+
 /* .label-check::before{
 content: "";
 width: 16px;
@@ -733,6 +737,7 @@ background-image: url(../images/check.svg);
 background-repeat: no-repeat;
 background-position: center;
 } */
+/* 
 .label-check span{
     width: 16px;
     height: 16px;
@@ -808,4 +813,4 @@ letter-spacing: 0.04em;
 color: #FFFFFF;
 }
 
-.footer-form {margin-left: 80px;}
+.footer-form {margin-left: 80px;} */
