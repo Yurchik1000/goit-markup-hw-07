@@ -1,0 +1,42 @@
+
+@media screen and (min-width: 1158px) {
+.container {width: 1158px;}
+.our-goal {padding-top: 120px; padding-bottom: 0;}
+.our-goal-list {flex-wrap: nowrap;}
+.our-goal-text {margin-bottom: 0;}
+.our-icon {
+/* display: block; */
+width: 264px;
+height: 112px;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #F4F4FD;
+border-radius: 4px;
+margin-bottom: 8px;
+}
+
+.what-title-index{
+margin-bottom: 72px;
+text-align: center;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+}
+
+.what-index {
+  display: block;
+padding-top: 120px;
+padding-bottom: 120px;
+}
+
+.our-team {padding-bottom: 120px; padding-top: 120px;}
+.our-team>.container {width: 1158px; padding-left: 15px; padding-right: 15px;}
+.hero-list {justify-content: space-between; flex-wrap: nowrap;}
+.customers {padding-top: 120px; padding-bottom: 120px;}
+.customers-item{width: calc((100% - 120px) / 6);}
+.footer {padding-top: 100px; padding-bottom: 100px;}
+.footer-left {margin-bottom: 0; margin-right: 120px;}
+.social {margin-right: 80px;}
+}
+

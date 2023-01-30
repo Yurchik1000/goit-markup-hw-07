@@ -1,0 +1,35 @@
+
+@media screen and (min-width:768px){
+.container {width: 768px;}
+.our-goal-list {display: flex; flex-wrap:wrap;column-gap: 24px;}
+.our-goal-index {text-align: start;}
+.hero-item-index {width: calc((100% - 30px) / 2);}
+.our-team {padding-bottom: 104px;}
+.our-team>.container {width: 582px;}
+.hero-list {gap: 64px; column-gap: 24px;}
+.customers-list {column-gap: 24px;}
+.customers-item{width: calc((100% - 60px) / 3);}
+.flex {display: flex;}
+.flex {flex-wrap: wrap;}
+.footer-logo {text-align: start;}
+.footer-text {width: 264px;}
+.footer-left {margin-right: 24px; margin-bottom: 72px;}
+.social {margin-top: 0; margin-bottom: 0; text-align: start;}
+.footer-email {text-align: start;}
+.footer-subscribe {display: flex;}
+.footer-input {width: 264px; margin-right: 24px;}
+}
+
+/* @media (min-width:767px) {
+
+}
+
+@media (max-width:767px) {
+}
+
+@media (max-width:767px) {
+
+}
+@media (min-width:768px) {
+
+} */
