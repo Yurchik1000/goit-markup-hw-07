@@ -21,7 +21,7 @@
 
 <body>
   <!--header-->
-  <!-- <header class="header">
+  <header class="header">
     <div class="container">
       <nav class="header-navigation">
         <a class="logo link" href="./index.html"> <span class="web">WEB</span>STUDIO</a>
@@ -35,16 +35,61 @@
         <li><a class="header-mail link text" href="">info@devstudio.com</a></li>
         <li><a class="header-tel link text" href="">+11 (000) 111-11-11</a></li>
       </ul>
+      <button type="button" class="menu-open">
+        <svg class="menu-icon" width="32" height="22">
+        <use xlink:href="./images/icons.svg#menu_btn"></use>
+        </svg>
+      </button>
     </div>
-  </header> -->
+    <div class="mob-menu">
+      <div class="container">
+        <button type="button" class="menu-close">
+          <svg class="menu-close-icon" width="8" height="8">
+            <use xlink:href="./images/icons.svg#icon-close-mob-menu"></use>
+          </svg>
+        </button>
+        <ul class="mob-menu-list list">
+          <li class="header-item"><a class="header-link link current" href="./index.html">Studio</a></li>
+          <li class="header-item"><a class="header-link link" href="./portfolio.html">Portfolio</a></li>
+          <li class="header-item"><a class="header-link link" href="">Contacts</a></li>
+        </ul>
+        <ul class="mob-menu-list list">
+          <li><a class="header-tel link text" href="">+11 (000) 111-11-11</a></li>
+          <li><a class="header-mail link text" href="">info@devstudio.com</a></li>
+        </ul>
+        <ul class="mob-soc-list list">
+          <li class="our-soc-item"><a href="" class="our-soc-link link">
+              <svg class="our-soc-icon" width="16" height="16">
+                <use xlink:href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a></li>
+          <li class="our-soc-item"><a href="" class="our-soc-link link">
+              <svg class="our-soc-icon" width="16" height="16">
+                <use xlink:href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a></li>
+          <li class="our-soc-item"><a href="" class="our-soc-link link">
+              <svg class="our-soc-icon" width="16" height="16">
+                <use xlink:href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a></li>
+          <li class="our-soc-item"><a href="" class="our-soc-link link">
+              <svg class="our-soc-icon" width="16" height="16">
+                <use xlink:href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
   <main>
     <!--hero-->
-    <!-- <section class="hero-index">
+    <section class="hero-index">
       <div class="container">
         <h1 class="hero-main">Effective Solutions for Your Business</h1>
         <button class="hero-index-btn" type="button" data-modal-open>Order Service</button>
       </div>
-    </section> -->
+    </section>
     <!--Our goal-->
     <section class="our-goal">
       <div class="container">
@@ -99,13 +144,31 @@
         <h2 class="what-title-index">What are we doing</h2>
         <ul class="hero-list list">
           <li>
-            <img src="./images/Rectangle71.jpg" alt="monitor" width="360">
+            <img
+            srcset="
+            ./images/Rectangle71.jpg 1x,
+            ./images/ps-2x.jpg 2x"
+            src="./images/Rectangle71.jpg" 
+            alt="monitor" 
+            width="360">
           </li>
           <li>
-            <img src="./images/Rectangle72.jpg" alt="phone" width="360">
+            <img 
+            srcset="
+            ./images/Rectangle72.jpg 1x,
+            ./images/mob-2x.jpg 2x"
+            src="./images/Rectangle72.jpg"
+            alt="phone" 
+            width="360">
           </li>
           <li>
-            <img src="./images/Rectangle73.jpg" alt="notebook" width="360">
+            <img 
+            srcset="
+            ./images/Rectangle73.jpg 1x,
+            ./images/phone-2x.jpg 2x"
+            src="./images/Rectangle73.jpg" 
+            alt="notebook" 
+            width="360">
           </li>
         </ul>
       </div>
@@ -116,7 +179,13 @@
         <h2 class="our-team-title">Our Team</h2>
         <ul class="hero-list list">
           <li class="out-team-item">
-            <img src="./images/img.jpg" alt="mark" width="264">
+            <img 
+            srcset="
+            ./images/img.jpg 1x,
+            ./images/mark-2x.jpg 2x"
+            src="./images/img.jpg" 
+            alt="mark" 
+            width="264">
             <div class="our-team-name">
               <h3 class="hero-headline-index">Mark Guerrero</h3>
               <p class="hero-text-index">Product Designer</p>
@@ -145,7 +214,13 @@
             </div>
           </li>
           <li class="out-team-item">
-            <img src="./images/img(1).jpg" alt="tom" width="264">
+            <img 
+            srcset="
+            ./images/img(1).jpg 1x,
+            ./images/tom-2x.jpg 2x"
+            src="./images/img(1).jpg" 
+            alt="tom" 
+            width="264">
             <div class="our-team-name">
               <h3 class="hero-headline-index">Tom Ford</h3>
               <p class="hero-text-index">Frontend Developer</p>
@@ -174,7 +249,13 @@
             </div>
           </li>
           <li class="out-team-item">
-            <img src="./images/img(2).jpg" alt="camila" width="264">
+            <img 
+            srcset="
+            ./images/img(2).jpg 1x,
+            ./images/camila-2x.jpg 2x"
+            src="./images/img(2).jpg" 
+            alt="camila" 
+            width="264">
             <div class="our-team-name">
               <h3 class="hero-headline-index">Camila Garcia</h3>
               <p class="hero-text-index">Marketing</p>
@@ -203,7 +284,13 @@
             </div>
           </li>
           <li class="out-team-item">
-            <img src="./images/img(3).jpg" alt="daniel" width="264">
+            <img 
+            srcset="
+            ./images/img(3).jpg 1x,
+            ./images/daniel-2x.jpg 2x"
+            src="./images/img(3).jpg" 
+            alt="daniel" 
+            width="264">
             <div class="our-team-name">
               <h3 class="hero-headline-index">Daniel Wilson</h3>
               <p class="hero-text-index">UI Designer</p>
@@ -331,7 +418,7 @@
       </div>
     </div>
   </footer>
-  <!-- <div class="backdrop is-hidden" data-modal>
+  <div class="backdrop is-hidden" data-modal>
     <div class="modal">
       <button type="button" class="modal-close" data-modal-close>
         <svg class="close" width="8" height="8">
@@ -384,7 +471,7 @@
         <div class="form-btn"><button type="submit" class="btn-submit">Send</button></div>
       </form>
     </div>
-  </div> -->
+  </div>
   <script src="./js/modal.js"></script>
 </body>
 

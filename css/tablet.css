@@ -1,6 +1,37 @@
 
 @media screen and (min-width:768px){
 .container {width: 768px;}
+.header-list{
+display: flex;
+margin-left: auto;
+gap: 40px;
+}
+
+
+.hero-index {padding-bottom: 108px;
+  background-image: linear-gradient(
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)),
+url(../images/hero-bg-tablet.jpg);
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+.hero-index {
+background-image: linear-gradient(
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)),
+url(../images/hero-bg-tablet-2x.jpg);
+}
+}
+
+.hero-main {
+  font-size: 56px;
+line-height: 1.07;
+width: 496px;
+}
+.hero-index-btn{margin-top: 40px;}
 .our-goal-list {display: flex; flex-wrap:wrap;column-gap: 24px;}
 .our-goal-index {text-align: start;}
 .hero-item-index {width: calc((100% - 30px) / 2);}
@@ -18,6 +49,7 @@
 .footer-email {text-align: start;}
 .footer-subscribe {display: flex;}
 .footer-input {width: 264px; margin-right: 24px;}
+.modal {max-width: 408px;}
 }
 
 /* @media (min-width:767px) {
