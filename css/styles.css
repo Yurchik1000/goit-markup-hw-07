@@ -99,11 +99,20 @@ color: var(--primary-btn);
 }
 
 .header-mail {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
 color: var(--secondary-color);
 transition: color 250ms var(--cub);
 }
 .header-tel {
-color: var(--secondary-color);
+display: block;
+max-width: 339px;
+font-weight: 600;
+font-size: 36px;
+line-height: 1.11;
+margin-bottom: 40px;
+color: var(--primary-btn);
 transition: color 250ms var(--cub);
 }
 
@@ -168,31 +177,26 @@ padding: 40px;
     margin-bottom: 16px;
     margin-left: auto;
 }
-.menu-close-icon {
-}
-.mob-menu-list {
 
-}
-
-.header-item {
-}
-.text {
-}
-.header-link {
+.container-menu{
+margin: auto;
+max-width: 428px;
 }
 
-.header-mail {
+.mob-menu> .container-menu{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+height: 100%;
+overflow: auto;
 }
-.header-tel {
-}
+
 .mob-soc-list {
+display: flex;
+justify-content: space-between;
+margin-top: 48px;
 }
-.our-soc-item {
-}
-.our-soc-link {
-}
-.our-soc-icon {
-}
+
 
 /* ------hero----- */ 
 

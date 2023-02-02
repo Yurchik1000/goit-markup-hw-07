@@ -1,6 +1,31 @@
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1200px) {
 .container {width: 1158px;}
+.header {padding-bottom: 28px;}
+.logo {margin-right: 76px;}
+
+.container>.header-list{
+  flex-direction: row;
+  gap: 40px;
+}
+
+.header-mail {
+font-weight: inherit;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+.header-tel {
+font-weight: inherit;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+.header-list .header-link.current::after {
+bottom: -28px;}
+
 .hero-index {padding-top: 188px; padding-bottom: 188px;
 background-image: linear-gradient(
     rgba(46, 47, 66, 0.7),
