@@ -1,6 +1,8 @@
 
 @media screen and (min-width:768px){
 .container {width: 768px;}
+.customers>.container {width: 582px;}
+.footer>.container {width: 582px;}
 .header {padding-bottom: 10px;}
 .header-list{
 display: flex;
@@ -68,8 +70,13 @@ line-height: 1.07;
 width: 496px;
 }
 .hero-index-btn{margin-top: 40px;}
-.our-goal-list {display: flex; flex-wrap:wrap;column-gap: 24px;}
+.our-goal-list {
+  display: flex; 
+  flex-wrap:wrap;
+  column-gap: 24px;
+row-gap: 72px;}
 .our-goal-index {text-align: start;}
+.our-goal-text {margin-bottom: 0;}
 .hero-item-index {width: calc((100% - 30px) / 2);}
 .our-team {padding-bottom: 104px;}
 .our-team>.container {width: 582px;}

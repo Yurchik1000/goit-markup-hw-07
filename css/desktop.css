@@ -1,6 +1,8 @@
 
 @media screen and (min-width: 1200px) {
 .container {width: 1158px;}
+.customers>.container {width: 1158px;}
+.footer>.container {width: 1158px;}
 .header {padding-bottom: 28px;}
 .logo {margin-right: 76px;}
 
@@ -48,6 +50,12 @@ url(../images/hero-bg-index-2x.jpg);
 .our-goal {padding-top: 120px; padding-bottom: 0;}
 .our-goal-list {flex-wrap: nowrap;}
 .our-goal-text {margin-bottom: 0;}
+.our-goal-index {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
 .our-icon {
 /* display: block; */
 width: 264px;
